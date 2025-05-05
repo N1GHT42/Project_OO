@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 
 public class Bacheca {
-    private enum titolo;
-    private String descrizione;
-    private static ArrayList<Bacheca> bacheche= new ArrayList<>();
+    protected enum titolo;
+    protected String descrizione;
+    protected static ArrayList<Bacheca> bacheche= new ArrayList<>();
 
     public enum titolo {
         UNIVERSITA,
